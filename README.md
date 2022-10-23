@@ -16,5 +16,5 @@ TESTS : $cd tests \n
 	directory-07 : redimensioning test : deleting contacts, ( as a result the hashtable will shrink). \n
 And of course you can add your own tests, an extension maybe? 
 
-To see if there are any memory leaks, you can use Valgrind : \n
-	$valgrind ./tests/directory-01-test #for the first test for example. \n
+To see if there are any memory leaks, you can use Valgrind : \\
+	$valgrind ./tests/directory-01-test #for the first test for example.
